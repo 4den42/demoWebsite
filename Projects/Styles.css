@@ -21,8 +21,13 @@ body {
 
 /* Headings */
 h1, h2, h3 {
-    margin-bottom: 1rem;
     text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 44px;
 }
 
 /*Menu */
@@ -36,8 +41,9 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 48px;
     margin-bottom: 1rem;
+    border: 3px solid #333;
 }
 
 /* Links */
@@ -50,18 +56,9 @@ a:hover {
     text-decoration: underline;
 }
 
-#Pictures ul {
-    gap: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    padding-bottom: 20px;
-
-}
-
-#contactForm {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin: 20px;
+.logo{
+    border-radius: 25%;
+    height: 60px;
+    width: 60px;
+    float: right;
 }
