@@ -43,8 +43,7 @@ h2{
 }
 /*Menu */
 nav{
-    background-color: #D3D3D3;
-    padding: 1rem 1;
+    background-color: #d8d8d8;
     margin: 4px;
 }
 
@@ -61,7 +60,7 @@ nav ul {
 
 /* Links */
 a {
-    color: #505255;
+    color: #333;
 }
 
 a:hover {
@@ -69,7 +68,7 @@ a:hover {
 }
 
 a:active {
-    background-color: #ffffff;
+    background-color: white;
 }
 
 #Pictures ul {

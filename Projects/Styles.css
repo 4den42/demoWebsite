@@ -33,7 +33,7 @@ h1{
 
 /*Menu */
 nav{
-    background-color: #D3D3D3;
+    background-color: #D8D8D8;
     padding: 1rem 1;
     margin: 4px;
 }
@@ -51,6 +51,9 @@ nav ul {
 nav a{
     color: #333;
 }
+ nav a:active{
+    background-color: white;
+ }
 
 /* Links */
 a {
@@ -95,10 +98,10 @@ img{
 
 #scholastic-projects li, #personal-projects li{
     background-color: #fff;
-    padding: 10px;
+   
     border: 2px solid #333;
     border-radius: 5px;
-    width: 30%;
+    width: 31%;
     text-align: center;
 }
 
