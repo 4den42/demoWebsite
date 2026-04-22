@@ -48,14 +48,21 @@ nav ul {
     border: 3px solid #333;
 }
 
+nav a{
+    color: #333;
+}
+
 /* Links */
 a {
-    color: #505255;
-    text-decoration: none;
+    color: #333;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: white underline 4px;    
+}
+
+a:active {
+    background-color: #333;
 }
 
 .logo{
@@ -70,3 +77,28 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+#scholastic-projects, #personal-projects{
+    display: flex;
+    padding: 20px;  
+    background-color: #d3d3d3;
+    border: 3px solid #333;
+}
+#scholastic-projects ul, #personal-projects ul{
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+    gap: 20px;
+    justify-content: center;
+}
+
+#scholastic-projects li, #personal-projects li{
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+

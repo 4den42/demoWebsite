@@ -50,12 +50,15 @@ nav ul {
 
 /* Links */
 a {
-    color: #505255;
-    text-decoration: none;
+    color: #333;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline white 4px;
+}
+
+a:active {
+    background-color: #ffffff;
 }
 
 #contactForm {
