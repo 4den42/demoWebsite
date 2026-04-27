@@ -15,8 +15,6 @@ body {
 /* Container */
 .container {
     max-width: 1200px;
-    margin: auto;
-    padding: auto;
     width: 100%;
 }
 
@@ -43,8 +41,11 @@ h2{
 }
 /*Menu */
 nav{
-    background-color: #d8d8d8;
-    margin: 4px;
+    background-color: #d8d8d8;  
+    width: 50%;
+    margin-left: 25%;               
+    border-radius: 8px;
+    
 }
 
 nav ul {
@@ -52,9 +53,9 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 48px;
-    margin-bottom: 1rem;
-    border: 3px solid #333;
+    gap: 80px;
+    border: 3px outset #333;
+    border-radius: 8px;
 }
 
 
@@ -76,7 +77,9 @@ a:active {
   justify-content: space-evenly;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 #Pictures li {
@@ -88,6 +91,7 @@ a:active {
   height: 400px;      
   object-fit: cover;   
   border-radius: 8px; 
+ 
 }
 
 img{
