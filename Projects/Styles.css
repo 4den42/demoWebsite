@@ -102,7 +102,6 @@ img{
 
 #scholastic-projects li, #personal-projects li{
     background-color: #fff;
-   
     border: 2px outset #333;
     border-radius: 5px;
     width: 31%;
@@ -112,5 +111,51 @@ img{
 footer{
     text-align: center;
     font-size: 14px;
+
+}
+
+@media (max-width: 768px) {
+    #bio img{
+        width: 100%;
+        height: auto;
+    }
+
+    #bio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contactForm {
+        margin: 20px;
+    }
+    nav {
+        width: 100%;
+        margin-left: 0;
+        border: 3px outset #333;
+        margin-top: 4px;
+    }
+
+    nav ul {
+        width: 100%;
+        border: none;
+        gap: 30px;
+    }
+
+    #scholastic-projects li, #personal-projects li{
+        width: 35%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #personal-projects ul{
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    #personal-projects{
+        margin: 2%;
+        padding: 2%;
+    }
 
 }
