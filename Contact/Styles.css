@@ -84,7 +84,8 @@ a:active {
 #bio {
     display: flex;
     padding: 20px;  
-    background-color: #d3d3d3;
+    /*background-color: #d3d3d3;*/
+    background-color: white;
     border: 3px outset #333;
     border-radius: 8px;
     margin: 20px;
